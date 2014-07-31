@@ -1,4 +1,8 @@
 extends layout
 
 block content
-	button#load-countries.btn.btn-primary(type='button') Load Countries
+	button#load-countries.btn.btn-primary(type='button' method="get" action="/countries") Load Countries
+
+	#countries-div
+	
+
